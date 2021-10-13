@@ -6,6 +6,9 @@
 .max_width_container{
     max-width: 980px;
 }
+.max_width__social_container{
+    max-width: 420px;
+}
 
 /* HEADER */
 header{
