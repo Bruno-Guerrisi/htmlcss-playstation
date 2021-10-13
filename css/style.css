@@ -134,6 +134,18 @@ header nav.nav_header{
     color: white;
 }
 
+/* playstation_plus */
+.playstation_plus{
+    background-color: #bebcbb;
+}
+
+.button_plus{
+    color: #0d7ffc;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+
 /************** 
    ANIMATION
 ***************/
