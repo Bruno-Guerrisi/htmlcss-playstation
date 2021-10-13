@@ -47,6 +47,8 @@ header nav.nav_header{
 
 /* MAIN */
 
+
+/* game sponsor full screen */
 .game_sponsor{
     background: url('../img/jumbo-bg.png');
     height: 500px;
@@ -80,14 +82,30 @@ header nav.nav_header{
 }
 
 
+/* game sponsor preview */
+.current_preview{
+    padding: 2px;
+    border: 3px solid #8cbee8;
+}
+.cover_sponsor_game{
+    width: 100%;
+    border-radius: 20px;
+}
 
 
 
+/************** 
+   ANIMATION
+***************/
+.cursor_pointer:hover{
+    cursor: pointer;
+}
 
 
 
-
-
+/************** 
+   RESPONSIVE 
+***************/
 @media screen and (max-width: 980px) {
     .max_width_container{
         max-width: 980px;
