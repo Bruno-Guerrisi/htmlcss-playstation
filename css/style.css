@@ -145,6 +145,20 @@ header nav.nav_header{
     border-color: #f8f9fa;
 }
 
+.info_plans{
+    font-size: 14px;
+}
+
+/* playstation_now */
+.playstation_now{
+    background-color: #161c3b;
+}
+
+.button_now{
+    color: black;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
 
 /************** 
    ANIMATION
