@@ -6,7 +6,7 @@
 .max_width_container{
     max-width: 980px;
 }
-.max_width__social_container{
+.max_width_social_container{
     max-width: 420px;
 }
 
@@ -118,10 +118,12 @@ header nav.nav_header{
     font-size: 14px;
 }
 
+.cover_game_back_unselected,
 .image_unselected{
     position: relative;
 }
 
+.cover_game_back_unselected::before,
 .image_unselected::before{
     position: absolute;
     content: '';
@@ -163,13 +165,27 @@ header nav.nav_header{
     border-color: #f8f9fa;
 }
 
+/* FOOTER */
+footer{
+    background-color: #00439c;
+}
+
 /************** 
    ANIMATION
 ***************/
+/* utilities */
 .cursor_pointer:hover{
     cursor: pointer;
 }
 
+/* button.button_animation{
+    transition: border-spacing 0.5s;
+}
+button.button_animation:hover{
+    border: 2px solid #ff0000;
+    border-collapse: separate;
+    border-spacing: 15px;
+} */
 
 
 /************** 

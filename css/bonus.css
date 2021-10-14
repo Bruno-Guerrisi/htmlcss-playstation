@@ -1,0 +1,28 @@
+/* game sponsor preview */
+
+.cover_game_back,
+.cover_game_back_unselected{
+    transition: transform 0.5s;
+}
+
+.cover_game_back:hover,
+.cover_game_back_unselected:hover{
+    transform: translateY(-10px);
+}
+
+.image_unselected:hover::before,
+.cover_game_back_unselected:hover::before{
+    background-color: transparent;
+}
+
+/* social media && section sales */
+.new_game_box,
+.sales_box,
+.social_box{
+    transition: transform 0.3s;
+}
+.new_game_box:hover,
+.sales_box:hover,
+.social_box:hover{
+    transform: scale(1.05);
+}
