@@ -168,6 +168,49 @@ header nav.nav_header{
 /* FOOTER */
 footer{
     background-color: #00439c;
+    padding: 70px 0;
+    color: white;
+}
+
+
+.globe_language{
+    width: 25px;
+    margin-right: 5px;
+}
+
+#language_selector{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+#language_selector option{
+    background-color: rgba(231, 231, 231, 0.295);
+    color: white;
+}
+
+.link_footer{
+    list-style: none;
+}
+
+.link_footer li{
+    margin-bottom: 5px;
+}
+
+.link_footer li a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.info_copyright{
+    color: currentColor;
+}
+.info_copyright:hover{
+    color: rgb(182, 182, 182);
+}
+
+.logo_sie{
+    width: 30%;
 }
 
 /************** 
