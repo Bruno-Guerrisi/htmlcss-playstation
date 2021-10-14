@@ -26,3 +26,43 @@
 .social_box:hover{
     transform: scale(1.05);
 }
+
+
+button.button_animation{
+    padding:8px 12px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.button_sponsor:hover{
+    background-color: #cd3d0f;
+    outline: 3px solid #cd3d0f;
+    outline-offset: 3px;
+    cursor:pointer;
+    color: white;
+}
+
+.button_blue{
+    background-color: #0b5ed7;
+    color: white;
+}
+.button_blue:hover{
+    outline: 3px solid #0b5ed7;
+    outline-offset: 3px;
+    cursor:pointer;
+}
+
+.button_plus{
+    color: #0d7ffc;
+    background-color: #f8f9fa;
+}
+.button_now{
+    color: black;
+    background-color: #f8f9fa;
+}
+.button_now:hover,
+.button_plus:hover{
+    outline: 3px solid #f8f9fa;
+    outline-offset: 3px;
+    cursor:pointer;
+}

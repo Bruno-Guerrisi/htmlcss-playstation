@@ -100,8 +100,8 @@ header nav.nav_header{
 
 /* game sponsor preview */
 .current_preview{
-    padding: 2px;
-    border: 3px solid #8cbee8;
+    outline: 3px solid #8cbee8;
+    outline-offset: 3px;
 }
 .cover_sponsor_game{
     width: 100%;
@@ -144,12 +144,6 @@ header nav.nav_header{
     background-color: #bebcbb;
 }
 
-.button_plus{
-    color: #0d7ffc;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-}
-
 .info_plans{
     font-size: 14px;
 }
@@ -157,12 +151,6 @@ header nav.nav_header{
 /* playstation_now */
 .playstation_now{
     background-color: #161c3b;
-}
-
-.button_now{
-    color: black;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
 }
 
 /* FOOTER */
@@ -220,15 +208,6 @@ footer{
 .cursor_pointer:hover{
     cursor: pointer;
 }
-
-/* button.button_animation{
-    transition: border-spacing 0.5s;
-}
-button.button_animation:hover{
-    border: 2px solid #ff0000;
-    border-collapse: separate;
-    border-spacing: 15px;
-} */
 
 
 /************** 
