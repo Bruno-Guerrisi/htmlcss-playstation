@@ -10,6 +10,14 @@
     max-width: 420px;
 }
 
+.button_link{
+    text-decoration: none;
+    color: currentColor;
+}
+.button_link:hover{
+    color: currentColor;
+}
+
 /* HEADER */
 header{
     position: fixed;
